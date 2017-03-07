@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/player/custom_player/caleon1/connor/Connor_head"
+	"$bumpmap"		"models/player/custom_player/caleon1/connor/Connor_head_n"
+}
