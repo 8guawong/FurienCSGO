@@ -87,7 +87,7 @@ public void OnPluginStart()
   }
   AddCommandListener(Command_Kill, "kill");
   g_MainClipOffset = FindSendPropInfo("CBaseCombatWeapon", "m_iClip1");
-  g_offsNextSecondaryAttack = FindSendPropOffs("CBaseCombatWeapon", "m_flNextSecondaryAttack");
+  g_offsNextSecondaryAttack = FindSendPropInfo("CBaseCombatWeapon", "m_flNextSecondaryAttack");
 
 
   cV_DisableBomb = CreateConVar("furien_disablebomb", "30", "For how many seconds after round starts will be unable to plant bomb / -1 = 'Able to plant everytime', 0 = 'Forever'");

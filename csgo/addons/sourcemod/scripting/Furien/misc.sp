@@ -89,7 +89,7 @@ public bool TraceRayTryToHit(int entity,int mask)
   }
 	return true;
 }
-stock void GetEntityRenderColor(int entity,int color[4])
+stock void F_GetEntityRenderColor(int entity,int color[4])
 {
 	static bool gotconfig = false;
 	static char prop[32];

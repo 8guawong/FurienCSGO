@@ -86,7 +86,7 @@ public Action OnPlayerRunCmd(int client, int &buttons, int &impulse, float vel[3
               {
                 int i_ClientRenderColor[MAXPLAYERS+1][4];
 
-                GetEntityRenderColor(client, i_ClientRenderColor[client]);
+                F_GetEntityRenderColor(client, i_ClientRenderColor[client]);
                 float f_InvisTimeLeft[MAXPLAYERS+1];
                 f_InvisTimeLeft[client] = f_ClientInvisible[client] - GetGameTime() + f_gInvisibleDelay[client];
                 if(f_InvisTimeLeft[client] < 0.01 && (i_ClientRenderColor[client][3]-cVi_Invisible_Alpha_Reduce) <= 0)
