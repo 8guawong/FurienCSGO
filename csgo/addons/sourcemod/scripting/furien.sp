@@ -29,7 +29,7 @@
 
 #define PLUGIN_NAME "FurienMOD for CSGO"
 #define PLUGIN_AUTHOR "ESK0"
-#define PLUGIN_VERSION "1.5"
+#define PLUGIN_VERSION "1.5.1"
 #define PLUGIN_DESCRIPTION "Very famous CS 1.6 mod with very huge community for CSGO"
 #define PLUGIN_URL "https://github.com/ESK0"
 
