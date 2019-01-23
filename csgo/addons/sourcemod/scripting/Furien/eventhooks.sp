@@ -145,8 +145,8 @@ public Action Event_OnPlayerSpawn(Event event, const char[] name, bool dontBroad
       SetEntPropFloat(client, Prop_Data, "m_flLaggedMovementValue", 1.0);
       if(IsClientVIP(client, g_AccType[ACC_VIP]))
       {
-        SetEntityModel(client, MODEL_ANTIFURIEN);
-        SetEntPropString(client, Prop_Send, "m_szArmsModel", MODEL_ANTIFURIEN_ARMS);
+        //SetEntityModel(client, MODEL_ANTIFURIEN);
+        //SetEntPropString(client, Prop_Send, "m_szArmsModel", MODEL_ANTIFURIEN_ARMS);
         SetEntProp(client, Prop_Send, "m_ArmorValue", 50);
         SetEntProp(client, Prop_Send, "m_bHasDefuser", 1);
       }
