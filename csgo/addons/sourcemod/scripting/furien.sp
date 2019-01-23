@@ -181,7 +181,7 @@ public void OnMapStart()
   SetCvarInt("mp_buytime", 0);
   MySql_Connect();
   PrecacheAndDownloadSounds();
-  PrecacheAdnDownloadModels(-1);
+  //PrecacheAdnDownloadModels(-1);
 
   i_F_RoundWinStream = 0;
 
